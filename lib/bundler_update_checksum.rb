@@ -1,6 +1,6 @@
 require 'digest/md5'
 
-module UpdateChecksum
+module BundlerUpdateChecksum
   puts "Come on"
   class Error < StandardError; end
   # Your code goes here...
