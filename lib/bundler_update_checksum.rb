@@ -15,6 +15,8 @@ module BundlerUpdateChecksum
 
     # To write changes to the file, use:
     File.open('.gitlab-ci.yml', 'w') {|file| file.puts new_contents }
+
+    puts "Hash rewritten"
   end
 
 end
